@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #3c96ed;
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    background: #f0f2f5;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8%;
+
+}
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-right: 100px;
+}
+
+.coluna1 img{
+    width: 320px;
+    position: relative;
+    right: 30px;
+}
+
+.coluna1 p{
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.coluna2{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 200px;
+}
+
+.login-panel{
+    background-color: #ffffff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-panel form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"]{
+    margin: 7px 0;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #cacbcc;
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    margin: 7px 0;
+    height: 52px;
+    border: 0;
+    background-color: #1877f2;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder{
+    color: #838383;
+    font-size: 16px;
+}
+
+.esqueceuSenha{
+    color: #1877f2;
+    margin-top: 18px 0;
+}
+
+.divisor{
+    background-color: #cacbcc;
+    height: 1px;
+    width: 100%;
+    display: flex;
+    margin: 18px 0;
+}
+
+.criarNovaConta{
+    border: 0;
+    width: 170px;
+    background-color: #16cf3e;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    outline: 0;
+    border: 1px solid #1877f2;
+    color: #1877f2;
+}
+
+.info-criar-pagina{
+    margin-top: 18px;
+}
+
+.info-criar-pagina a{
+    color: #414141;
+}
+
+.info-criar-pagina a:hover{
+    text-decoration: underline;
+}
+
+
+footer{
+    width: 100%;
+    padding-top: 18px;
+    height: 25vh;
+    background-color: #ffffff;
+}
+
+.container-footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container-footer a:hover{
+    text-decoration: underline;
+}
+
+
+.container-footer a{
+    margin-right: 7px;
+    color: #838383;
+    font-size: 12px;
+}
+
+.language-footer button{
+    width: 32px;
+    border: 0;
+    height: 18px;
+    border: 1px solid #838383;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.links-footer a{
+    margin-right: 15px;
+}
+
+
+.copyright{
+    margin-top: 35px;
+    color: #838383;
+    font-size: 11px;
+}
